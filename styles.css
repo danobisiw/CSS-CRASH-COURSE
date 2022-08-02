@@ -1,0 +1,58 @@
+h1{
+    background-color: rgb(4, 69, 99);
+    color: aliceblue;
+    text-align: center;
+    padding:20px 0 ;
+}
+
+.heading{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30PX;
+    color: rgb(4, 69, 99);
+}
+p{
+    font-size: 20px;
+}
+.container{
+    max-width: 80vw;
+    margin: 0 auto;
+}
+.container p::first-letter{
+    font-size: 50px;
+    float: left;
+}
+
+.card{
+    width: 300px;
+    min-height: 400px;
+    /* background-color: rgba(0, 255, 255, 0.233); */
+    box-shadow: 5px 0 5px 1px rgba(20 ,20,20,0.1);
+}
+img{
+    width: 100%;
+}
+.card .content-section h3{
+    text-align: center;
+    color:rgb(4, 69, 99);
+    font-size: 20px;
+    
+}
+.card .content-section {
+    padding: 10px;
+}
+button{
+    outline: none;
+    border: 2px solid rgb(4, 69, 99);
+    background-color: transparent;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    border-radius: 50px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 50px;
+}
